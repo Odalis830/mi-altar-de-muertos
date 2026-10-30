@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos del Altar de Muertos</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            background-color: #f5e4ca;
+            color: #542e20;
+        }
+
+        header {
+            background-color: #a84325;
+            color: #fff0d5;
+            text-align: center;
+            padding: 55px 20px;
+            border-bottom: 9px solid #e99a32;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 19px;
+        }
+
+        .introduccion {
+            text-align: center;
+            padding: 35px 12%;
+            background-color: #e9c9a0;
+            line-height: 1.8;
+        }
+
+        .introduccion h2 {
+            color: #a84325;
+            margin-bottom: 15px;
+        }
+
+        .contenedor {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .contenedor h2 {
+            text-align: center;
+            color: #a84325;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .elementos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .tarjeta {
+            background-color: #fff3df;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 12px #7d493033;
+            border-bottom: 5px solid #d96c35;
+        }
+
+        .tarjeta img {
+            width: 100%;
+            height: 190px;
+            object-fit: cover;
+        }
+
+        .tarjeta h3 {
+            color: #b44429;
+            padding: 15px 15px 5px;
+            font-size: 22px;
+        }
+
+        .tarjeta p {
+            padding: 10px 15px 20px;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        .frase {
+            background-color: #783d2c;
+            color: #ffe4b9;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 22px;
+            font-style: italic;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #a84325;
+            color: #fff0d5;
+            text-align: center;
+            padding: 22px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Altar de Muertos</h1>
+        <p>Tradición, cultura y recuerdo de nuestros seres queridos</p>
+    </header>
+
+    <section class="introduccion">
+        <h2>¿Qué es el Altar de Muertos?</h2>
+        <p>
+            El altar de muertos es una tradición mexicana que se celebra
+            principalmente el 1 y 2 de noviembre. Su propósito es recordar
+            y honrar a nuestros seres queridos que ya fallecieron.
+            Cada elemento tiene un significado especial y representa
+            una forma de recibir a las almas durante su visita.
+        </p>
+    </section>
+
+    <main class="contenedor">
+        <h2>Elementos principales del altar</h2>
+
+        <div class="elementos">
+
+            <article class="tarjeta">
+                <img src="https://images.unsplash.com/photo-1508615070457-7baeba4003ab?w=700"
+                alt="Flores de colores">
+                <h3>1. Flores de cempasúchil</h3>
+                <p>
+                    Su color naranja representa la luz del sol.
+                    Se utilizan para guiar a las almas hacia el altar
+                    mediante su color y aroma.
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?w=700"
+                alt="Velas encendidas">
+                <h3>2. Veladoras</h3>
+                <p>
+                    Representan la luz y la esperanza. Su llama
+                    ilumina el camino de las almas para que puedan
+                    regresar a visitar a sus familiares.
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <img src="https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?w=700"
+                alt="Pan tradicional">
+                <h3>3. Pan de muerto</h3>
+                <p>
+                    Es uno de los alimentos tradicionales.
+                    Su forma representa el ciclo de la vida y la muerte
+                    y se coloca como ofrenda para los difuntos.
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <img src="https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=700"
+                alt="Alimentos mexicanos">
+                <h3>4. Comida favorita</h3>
+                <p>
+                    Se colocan los platillos que más disfrutaban
+                    las personas fallecidas, como una manera de
+                    recordar sus gustos y compartir con ellas.
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=700"
+                alt="Fotografía y recuerdos">
+                <h3>5. Fotografías</h3>
+                <p>
+                    Representan a las personas que recordamos.
+                    Nos ayudan a mantener presente su memoria
+                    y el cariño que sentimos por ellas.
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=700"
+                alt="Decoraciones coloridas">
+                <h3>6. Papel picado</h3>
+                <p>
+                    Representa el aire y la alegría de la celebración.
+                    Sus colores y figuras decoran el altar
+                    y simbolizan la unión entre la vida y la muerte.
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <img src="https://images.unsplash.com/photo-1602523961358-f9f03dd557db?w=700"
+                alt="Vaso con agua">
+                <h3>7. Agua</h3>
+                <p>
+                    Se ofrece para calmar la sed de las almas
+                    después de su largo recorrido desde el más allá.
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=700"
+                alt="Sal">
+                <h3>8. Sal</h3>
+                <p>
+                    Simboliza la purificación y se coloca para
+                    proteger el alma durante su visita al mundo
+                    de los vivos.
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=700"
+                alt="Incienso">
+                <h3>9. Copal e incienso</h3>
+                <p>
+                    Su aroma se utiliza para limpiar el ambiente
+                    y purificar el espacio donde se recibe
+                    a las almas.
+                </p>
+            </article>
+
+        </div>
+    </main>
+
+    <section class="frase">
+        "Mientras exista alguien que nos recuerde,
+        nunca desapareceremos."
+    </section>
+
+    <footer>
+        <p>© 2026 | Día de Muertos - Tradición Mexicana</p>
+        <p>Una celebración llena de amor, memoria y cultura.</p>
+    </footer>
+
+</body>
+</html>
